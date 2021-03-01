@@ -1,0 +1,126 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: Arial, Helvetica, sans-serif;
+  box-sizing: border-box;
+  text-decoration: none;
+}
+
+body {
+  height: 100vh;
+  background: url("./background.jpg");
+  background-size: cover;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.profile-card {
+  width: 400px;
+  text-align: center;
+  border-radius: 8px;
+  overflow: hidden;
+}
+
+.card-top {
+  background: rgb(2, 2, 29);
+  height: 62vh;
+  padding: 60px 40px;
+}
+
+.photo {
+  display: inline-block;
+  padding: 8px;
+  background: linear-gradient(#ffff, #8b06f7);
+  margin: auto;
+  border-radius: 50%;
+  background-size: 200% 200%;
+}
+
+@keyframes animated-gradient {
+  25% {
+    background-position: left bottom;
+  }
+  50% {
+    background-position: right bottom;
+  }
+  75% {
+    background-position: left top;
+  }
+  100% {
+    background-position: right top;
+  }
+}
+
+.photo img {
+  display: block;
+  width: 100px;
+  height: 90px;
+  border-radius: 50%;
+}
+
+.myname {
+  color: white;
+  font-size: 28px;
+  font-weight: 600;
+  margin: 10px 0;
+}
+
+.profession {
+  font-size: 18px;
+  color: rgb(138, 65, 53);
+}
+
+.social-media {
+  display: flex;
+  justify-content: center;
+  margin: 20px 0;
+}
+
+.social-media a {
+  color: white;
+  width: 56px;
+  font-size: 22px;
+  transition: 0.3s linear;
+}
+
+.social-media a:hover {
+  color: blue;
+}
+
+.contact-btn {
+  display: inline-block;
+  padding: 12px 50px;
+  color: rgb(138, 65, 53);
+  border: 2px solid rgb(138, 65, 53);
+  border-radius: 50px;
+  margin-top: 10px;
+  transition: 0.3s linear;
+}
+
+.contact-btn:hover {
+  background: rgb(138, 65, 53);
+  color: white;
+}
+
+.card-bottom {
+  background: white;
+  padding: 60px 10px;
+}
+
+.number {
+  display: flex;
+  align-items: center;
+}
+
+.item {
+  flex: 1;
+  text-transform: uppercase;
+  font-size: 12px;
+  color: rgb(138, 65, 53);
+}
+
+.item span {
+  display: block;
+  color: rgb(138, 65, 53);
+  font-size: 30px;
+}
