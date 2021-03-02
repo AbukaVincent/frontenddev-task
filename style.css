@@ -8,47 +8,39 @@
 
 body {
   height: 100vh;
-  background: url("./background.jpg");
+  background: url("./bg-3patterns-combine.svg");
+  /* background: url("./bg-pattern-top.svg"), url("./bg-pattern-bottom.svg");
   background-size: cover;
+  background-position: top 150px left 150px, top -100px right 120px,
+    bottom 100px right 100px, bottom 10px left 10px; */
+  background-size: cover;
+  //background-repeat: no-repeat;
+
   display: flex;
   align-items: center;
   justify-content: center;
+  font-family: [Kumbh Sans](https://fonts.google.com/specimen/Kumbh+Sans);
 }
 .profile-card {
-  width: 400px;
+  width: 350px;
   text-align: center;
   border-radius: 8px;
   overflow: hidden;
 }
-
 .card-top {
   background: rgb(2, 2, 29);
-  height: 62vh;
+  background: url("./bg-pattern-card.svg");
+  height: 15vh;
   padding: 60px 40px;
 }
 
 .photo {
   display: inline-block;
-  padding: 8px;
-  background: linear-gradient(#ffff, #8b06f7);
+  padding: 5px;
+  background: linear-gradient(#ffff, #ffff);
   margin: auto;
   border-radius: 50%;
   background-size: 200% 200%;
-}
-
-@keyframes animated-gradient {
-  25% {
-    background-position: left bottom;
-  }
-  50% {
-    background-position: right bottom;
-  }
-  75% {
-    background-position: left top;
-  }
-  100% {
-    background-position: right top;
-  }
 }
 
 .photo img {
@@ -59,64 +51,52 @@ body {
 }
 
 .myname {
-  color: white;
-  font-size: 28px;
-  font-weight: 600;
-  margin: 10px 0;
-}
-
-.profession {
+  color: black;
   font-size: 18px;
-  color: rgb(138, 65, 53);
+  font-weight: 400;
+  margin: 10px 0;
+  // display: flex;
+  padding-bottom: 30%;
+  padding-left: 10%;
+}
+span {
+  color: grey;
+  padding-left: 5%;
+  font-weight: lighter;
+  font-size: 18px;
 }
 
-.social-media {
-  display: flex;
-  justify-content: center;
-  margin: 20px 0;
+p {
+  font-size: 14px;
+  color: gray;
+  padding-top: 10%;
+  padding-right: 5%;
 }
-
-.social-media a {
-  color: white;
-  width: 56px;
-  font-size: 22px;
-  transition: 0.3s linear;
-}
-
-.social-media a:hover {
-  color: blue;
-}
-
-.contact-btn {
-  display: inline-block;
-  padding: 12px 50px;
-  color: rgb(138, 65, 53);
-  border: 2px solid rgb(138, 65, 53);
-  border-radius: 50px;
-  margin-top: 10px;
-  transition: 0.3s linear;
-}
-
-.contact-btn:hover {
-  background: rgb(138, 65, 53);
-  color: white;
-}
-
 .card-bottom {
   background: white;
+  height: 60vh;
   padding: 60px 10px;
+  padding-bottom: 30%;
 }
 
+.color {
+  height: 1px;
+  margin-bottom: 5%;
+}
 .number {
   display: flex;
   align-items: center;
+  color: black;
+  font-weight: 800;
+  font-size: 18px;
 }
 
 .item {
   flex: 1;
-  text-transform: uppercase;
+  text-transform: capitalize;
   font-size: 12px;
-  color: rgb(138, 65, 53);
+  color: gray;
+  font-weight: lighter;
 }
 
 .item span {

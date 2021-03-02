@@ -1,0 +1,27 @@
+<svg width="512" height="512" xmlns="http://www.w3.org/2000/svg" style="vector-effect: non-scaling-stroke;" stroke="null">
+ <!-- Created with UXWing SVG Editor - https://uxwing.com/svg-icon-editor/ -->
+
+ <g stroke="null">
+  <title stroke="null">background</title>
+  <rect stroke="null" fill="none" id="canvas_background" height="514" width="514" y="-1" x="-1"/>
+  <g style="vector-effect: non-scaling-stroke;" stroke="null" display="none" overflow="visible" y="0" x="0" height="100%" width="100%" id="canvasGrid">
+   <rect fill="url(#gridpattern)" stroke-width="0" y="0" x="0" height="100%" width="100%"/>
+  </g>
+ </g>
+ <g stroke="null">
+  <title stroke="null">Layer 1</title>
+  <rect stroke="#FF0000" id="svg_1" height="526" width="534" y="-5.546875" x="-4.5" stroke-width="0.001" fill="#16b7b7"/>
+  <defs style="vector-effect: non-scaling-stroke;" stroke="null">
+   <linearGradient style="vector-effect: non-scaling-stroke;" stroke="null" id="svg_8" y2="100%" x2="50%" y1=".779%" x1="50%">
+    <stop style="vector-effect: non-scaling-stroke;" stroke="null" offset="0%" stop-opacity="0" stop-color="#0989B4"/>
+    <stop style="vector-effect: non-scaling-stroke;" stroke="null" offset="99.94%" stop-color="#53FFEE"/>
+   </linearGradient>
+  </defs>
+  <g stroke="null" transform="rotate(-10.243910789489746 458.99969482421886,417.999481201172) " id="svg_11">
+   <ellipse stroke="null" id="svg_10" opacity="0.5" fill-rule="evenodd" ry="488" rx="489" cy="3400.723835" cx="-3304.81143" transform="matrix(-0.3092001379690109,-0.35716690004654505,0.3092001379690111,-0.35716690004654494,-1614.352757075756,452.25617461450366) " fill="url(#svg_8)"/>
+  </g>
+  <g stroke="null" id="svg_13">
+   <ellipse stroke="null" id="svg_12" opacity="0.5" fill-rule="evenodd" ry="488" rx="489" cy="3504.645929" cx="-1766.648616" transform="matrix(-0.2610417008877924,-0.2748594541861647,0.26104170088779255,-0.2748594541861646,-1338.0280367999762,514.2044800658127) " fill="url(#svg_8)"/>
+  </g>
+ </g>
+</svg>
